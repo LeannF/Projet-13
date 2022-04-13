@@ -1,0 +1,12 @@
+body {
+  background-image: url("img/HomePage/DESIGN DE FOND.svg");
+  background-repeat: no-repeat;
+  padding: 0%;
+}
+ 
+
+
+@font-face {
+  font-family: "Amiko";
+  src: url("./font/Amiko/Amiko-SemiBold.ttf");
+}

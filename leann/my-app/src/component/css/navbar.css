@@ -1,0 +1,47 @@
+.myNavbar {
+    background-color: rgba(255, 255, 255, 0.688)!important;
+    box-shadow: none!important;
+    font-family: "Amiko";
+  
+}
+  
+.myNavbar a{
+  font-family: "Amiko";
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: black;
+}
+
+#modal {
+  color: black;
+  border-color: rgb(0, 0, 0);
+  border-style: inset;
+  border-radius: 10px;
+  align-self: right;
+}
+
+.modal .modal-content {
+  display: inline-block;
+}
+
+.modal-footer {
+  text-align: end;
+}
+
+.btn-flat {
+  background-color: black;
+  color: white;
+  border: 10px;
+  border-radius: 10px;
+}
+
+.modal .modal-content .validate {
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
+  border:  solid #000000;
+
+}
+.maDiv {
+  display: none;
+}
