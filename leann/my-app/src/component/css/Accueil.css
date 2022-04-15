@@ -8,12 +8,11 @@
     background-color: #EAFFFB;
 }
 
-#discover {
-    width: 20%;
-    height: auto;
+.discover {
+    text-align: center;
     margin-bottom: 10% ;
-    margin-left: 40%;
 }
+
 
 #sense {
     background-color: #EAFFFB;
@@ -35,6 +34,7 @@
     padding-top: 15%;
     padding-left: 9%;
     padding-right: 5%;
+    margin-bottom: 5% ;
 }
 
 .description a{
@@ -54,13 +54,26 @@
     border-bottom-right-radius: 20px;
 }
 
-.experiences-bottom input{
-    padding-left: 60%;
+.experiences-bottom .link{
+    text-align: right;
+}
+
+#more{
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 5%;
+    margin-bottom: 10px ;
+}
+
+#more img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0%;
+    margin: 0%;
 }
 
 .more-bottom input{
-    
-    padding-left: 60%;
+    text-align: center;
 }
 
 .more-bottom{
@@ -77,17 +90,24 @@
 
 .reservation img{
     position: absolute;
+    text-align: center;
+    vertical-align: middle;
+
 }
 
 .reservation{
     padding-top: 70px;
 }
 
-#bg_reserve{
-    width: 80%;
-    padding-top: 10%;
-    padding-left: 20%;
+.reservation p{
+    text-transform: uppercase;
+    position: absolute;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
 }
+
+
 
 a {
     color: black;
