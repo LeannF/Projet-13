@@ -1,78 +1,59 @@
 import './css/navbar.css';
-import SENSE from '../img/HomePage/SENSE.svg';
+import logo from '../img/HomePage/Logo.svg';
 import React from 'react';
 import { Component } from "react";
 import M, {input} from "materialize-css";
 
 class Navbar extends Component {
-    componentDidMount() {
-      const options = {
-        onOpenStart: () => {
-          console.log("Open Start");
-        },
-        onOpenEnd: () => {
-          console.log("Open End");
-        },
-        startingTop: "1%",
-      };
-      M.Modal.init(this.Modal, options);
-    }
+  componentDidMount() {
+      let elems = document.querySelectorAll('.dropdown-trigger', '.sidenav');
+    const options = {
+      onOpenStart: () => {
+        console.log("Open Start");
+      },
+      onOpenEnd: () => {
+        console.log("Open End");
+      },
 
-    render() {
-        return (
-            
-            <nav className="myNavbar">
-                <img id='title' src={SENSE} alt='The Sense'/>
-                
-                <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><a className='black-text' href="news.html">news |</a></li>
-                    <li><a className='black-text' href="nos expériences.html"> nos expériences |</a></li>
-                    <li><a className='black-text' href="à propos de nous.html"> à propos de nous |</a></li>
-                    <li><a className='black-text' href="nos équipements.html"> nos équipements |</a></li>
-                    <li><a className='modal-trigger black-text ' data-target="modal">connexion</a></li>
-
-                </ul>
-                    <div
-                        ref={Modal => {
-                            this.Modal = Modal;
-                        }}
-                        id="modal"
-                        className="modal"
-                    >
-                    <div className="modal-content row">
-                        <h2>CONNEXION</h2>
-                       
-                        <form className="col s12 l12">
-                            <div className="row">
-                                <div className="input-field col l12">
-                                    
-                                    <div className="row col s12 l12">
-                                        <p className='col l6'>identifiant</p>
-                                        <input id="id" type="text" className="validate col l6"/>
-                                    </div>
-                                    <div className="col s12 l12">
-                                        <p className='col l7'>Mot de passe</p>
-                                        <input id="mdp" type="tel" className="validate col l5"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+        
+        
      
-                    <div className='modal-footer col m12 l12'>
-                        <a className="waves-effect waves-red col m6" href='Compte2.js'>
-                            Créer un compte
-                        </a>
-                        <button className="modal-connexion waves-effect waves-red btn-flat col m6">
-                            Connexion
-                        </button>
-                       
-                    </div>
-                </div>
-            </nav>
-            
-        );
-    }
+    };
+    M.Sidenav.init(elems, options);
+    M.Dropdown.init(elems, options);
+  }
+
+  render() {
+    return (
+        
+      <nav className="myNavbar">
+          <img id='title' src={logo} alt='The Sense' width={70} height={70}/>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li><a className='black-text' href="news.js">news |</a></li>
+            <li><a className='black-text' href="nos expériences.js"> nos expériences |</a></li>
+            <li><a className='black-text' href="à propos de nous.js"> à propos de nous |</a></li>
+            <li><a className='black-text' href="nos équipements.js"> nos équipements |</a></li>
+            <li><a className='dropdown-trigger black-text ' data-target="dropdown">connexion</a></li>
+          </ul>
+          <div className='row'>
+            <div id='dropdown' className='dropdown-content col l12'>
+              <div><a className="col l12" href="#!">one</a>
+                <a className="col l12" href="#!">two</a>
+                <a className="col l12" href="#!">three</a>
+              </div>
+            </div>                       
+          </div>
+          <ul class="sidenav" id="mobile-demo">
+          <li><a class="ancrenav" href="news.js">nos expériences</a></li>
+          <li><a class="ancrenav" href="nos expériences.js">à propos de nous</a></li>
+          <li><a class="ancrenav" href="à propos de nous.js">nos équipements</a></li>
+          <li><a class="ancrenav" href="nos équipements.js">connexion</a></li>
+        </ul>
+      </nav>
+         
+    );
+  }
 }
  
 export default Navbar;
