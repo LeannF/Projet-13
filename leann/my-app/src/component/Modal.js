@@ -56,7 +56,6 @@ class Modal extends Component {
   }
 }
 
-export default Modal;
 
 class Navbar extends Component {
 
@@ -65,12 +64,12 @@ class Navbar extends Component {
       document.getElementById("popupForm").style.display = "block";
   }
   closeForm() {
-      document.getElementById("popupForm").style.display = "none";
-      window.onClick = function (event) {
-          if (event.target.className === "form-popup") {
-            event.target.style.display = "none";
-          }
-      };
+    document.getElementById("popupForm").style.display = "none";
+    window.onClick = function (event) {
+        if (event.target.className === "form-popup") {
+          event.target.style.display = "none";
+        }
+    };
   }
 
 

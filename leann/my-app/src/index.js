@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'materialize-css/dist/css/materialize.min.css';
-import Navbar from './component/Navbar';
-import Home from './Accueil';
-
+import MyNavbar from './component/Navbar';
+import Home from './component/Accueil';
+import Connexion from './component/Compte1';
+import Compte from './component/Compte2';
 //import MyModal from './component/Modal';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-    <Home />
+    <MyNavbar />
+    <Connexion/>
   </React.StrictMode>,
   document.getElementById('root')
 );

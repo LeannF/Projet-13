@@ -1,5 +1,5 @@
 .myNavbar {
-  background-color: rgba(255, 255, 255, 0.688)!important;
+  background-color: rgba(255, 255, 255, 0.688);
   box-shadow: none!important;
   font-family: "AmikoB";
 }
@@ -9,14 +9,53 @@
   font-size: 1.1em;
   text-transform: uppercase;
   color: black;
-  padding: 10px 10px;
+ 
 }
 
-.dropdown-content li>a, .dropdown-content li>span {
-  width: 500px;
-  font-size: 16px;
-  color: #000000;
-  display: inline;
-  line-height: 22px;
-  padding: 14px 16px;
+
+#modal {
+  color: black;
+  border-color: rgb(0, 0, 0);
+  border-style: inset;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+.modal .modal-content {
+  display: inline-block;
+  
+}
+
+.modal-footer {
+  text-align: end;
+}
+
+.btn-flat {
+  background-color: black;
+  color: white;
+  border: 10px;
+  border-radius: 10px;
+}
+
+.row .col {
+  float: left;
+  box-sizing: border-box;
+  padding: 0 0.50rem; 
+  min-height: 1px;
+  
+}
+
+.modal .modal-content .input-field .validate{
+  margin-left: auto;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
+  border:  solid #82FFE1;
+}
+
+.modal .modal-content p{
+
+  height: 10px;
 }
