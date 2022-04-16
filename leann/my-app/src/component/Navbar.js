@@ -2,7 +2,7 @@ import './css/navbar.css';
 import logo from '../img/HomePage/Logo.svg';
 import React from 'react';
 import { Component } from "react";
-import M, {input} from "materialize-css";
+import M from "materialize-css";
 
 class Navbar extends Component {
   componentDidMount() {
@@ -27,7 +27,7 @@ class Navbar extends Component {
     return (
         
       <nav className="myNavbar">
-          <img id='title' src={logo} alt='The Sense' width={70} height={70}/>
+          <img id='title' src={logo} alt='The Sense' color='black' width={70} height={70}/>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><a className='black-text' href="news.js">news |</a></li>
