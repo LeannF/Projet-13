@@ -1,20 +1,20 @@
 import { Component } from "react";
-import './component/css/Accueil.css';
-import discover from './img/HomePage/btn_decouvrir.svg';
-import sense from './img/HomePage/SENSE.svg';
-import trailer from './img/HomePage/trailer_accueil.png';
-import shangrila from './img/HomePage/shangrila.svg';
-import reserve from './img/HomePage/btn_reserve.svg';
-import img1 from './img/HomePage/img_accueil.svg';
-import img2 from './img/HomePage/img_accueil2.svg';
-import img3 from './img/HomePage/img_accueil3.svg';
-import reservation from './img/HomePage/reservation.svg';
-import bg_reservation from './img/HomePage/reserv_accueil.svg';
-import light from './img/HomePage/light_room.svg';
-import battle from './img/HomePage/battle_room.svg';
-import creative from './img/HomePage/creative.svg';
-import img4 from './img/HomePage/img_accueil4.svg';
-import img5 from './img/HomePage/img_accueil5.svg';
+import './css/Accueil.css';
+import discover from '../img/HomePage/btn_decouvrir.svg';
+import sense from '../img/HomePage/SENSE.svg';
+import trailer from '../img/HomePage/trailer_accueil.png';
+import shangrila from '../img/HomePage/shangrila.svg';
+import reserve from '../img/HomePage/btn_reserve.svg';
+import img1 from '../img/HomePage/img_accueil.svg';
+import img2 from '../img/HomePage/img_accueil2.svg';
+import img3 from '../img/HomePage/img_accueil3.svg';
+import reservation from '../img/HomePage/reservation.svg';
+import bg_reservation from '../img/HomePage/reserv_accueil.svg';
+import light from '../img/HomePage/light_room.svg';
+import battle from '../img/HomePage/battle_room.svg';
+import creative from '../img/HomePage/creative.svg';
+import img4 from '../img/HomePage/img_accueil4.svg';
+import img5 from '../img/HomePage/img_accueil5.svg';
 import M from "materialize-css";
 
 

@@ -42,3 +42,8 @@ h3{
   text-transform: uppercase;
   font-family: "AmikoB";
 }
+
+textarea{
+  border-bottom: none;
+}
+
