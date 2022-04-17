@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "AmikoB";
+  src: url("./font/Amiko/Amiko-Bold.ttf");
+}
+
+@font-face {
+  font-family: "AmikoR";
+  src: url("./font/Amiko/Amiko-Regular.ttf");
+}
+
+@font-face {
+  font-family: "AmikoSB";
+  src: url("./font/Amiko/Amiko-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Abel";
+  src: url("./font/Abel/Abel-Regular.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsEL";
+  src: url("./font/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsT";
+  src: url("./font/Poppins/Poppins-Thin.ttf");
+}
+
+p{
+  font-family: "Abel";
+  font-size: 30px;
+}
+
+h2{
+  text-transform: uppercase;
+  font-family: "AmikoB";
+}
+
+h3{
+  text-transform: uppercase;
+  font-family: "AmikoB";
+}
