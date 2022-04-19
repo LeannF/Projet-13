@@ -170,6 +170,7 @@ body {
 }
 
 .page .reservation .horaires{
+    font-size: "AmikoB";
     background-color: black;
     color: red;
     text-align: center;
@@ -185,7 +186,13 @@ body {
     background-color: #9C0000;
     width: 100px;
 }
-.page .reservation .horaires a h3{
+.page .reservation .horaires a {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.page .reservation .horaires h3{
     color: white;
 }
 
@@ -198,15 +205,17 @@ body {
     color: white;
     text-transform: uppercase;
     font-size: large;
+    padding-right: 2%;
 }
+
 [type="checkbox"].check1.filled-in:disabled:not(:checked)+span:not(.lever):after {
     border-color: transparent;
-    background-color: #00BA8D;
+    background-color: #9C0000 ;
 }
 
 [type="checkbox"].check2.filled-in:disabled:not(:checked)+span:not(.lever):after {
     border-color: transparent;
-    background-color: #9C0000;
+    background-color: #00BA8D;
 }
 
 .page .news p{
