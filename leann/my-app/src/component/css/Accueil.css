@@ -218,36 +218,67 @@ body {
     background-color: #00BA8D;
 }
 
-.page .news p{
+.page .row-news p{
     font-size: medium;
     color: black;
 }
 
-.page .news .part1 {
-    text-align: center;
+.page .row-news .part1 {
     padding-left: 10%;
 }
 
-.page .news .part1 .news-bottom{    
-    text-align: center;
+.page .row-news .part1 .news-bottom{    
+    padding-top: 5px;
     background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 80%;
 }
 
-.page .news .part2 {
-    text-align: center;
-    padding-right: 10%;
-}
 
-.page .news .part2 .news-bottom{
-    text-align: center;
+.page .row-news .part2 .news-bottom{
+    padding-top: 5px;
     background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 80%;
     margin-right: 10%;
+}
+.page .row-news .news-bottom h3{    
+    font-size: 35px;
+
+}
+.page .row-news .part1 img{    
+    width: 100%;
+
+}
+.page .row-news .part2 img{    
+    width: 80.5%;
+
+}
+.page .row-news .news-bottom p{    
+    font-size: 30px;
+    text-align: center;
+    font-family: "Abel";
+}
+.page .row .collapsible {
+    padding-left: 8%;
+    border: none;
+    box-shadow: none;
+    margin: 0.5rem 0 1rem 0; 
+}
+.collapsible-header {
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.5;
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.collapsible-body {
+    display: none;
+    border-bottom: none;
+    padding: 2rem;
 }
 
 .btn{
@@ -270,3 +301,6 @@ a{
     height: 500px;
 }
 
+h3{
+    padding-left: 10%;
+}

@@ -203,11 +203,12 @@ class Home extends Component {
                         
                     </div>
 
-                    <div className="row news col l12 s12 m12">
+                    <div className="row-news col l12 s12 m12">
                         <h3>les news du mois</h3>
-                        <div className='part1 col l6 s12 m6'>
+                        
+                        <div className='part1 col l6 s6 m6'>
                             <img  src={img4} alt='The Sense'/>
-                            <div className="news-bottom">
+                            <div className=" news-bottom ">
                                 <h3>événement : la chasse à l'oeuf</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -219,7 +220,7 @@ class Home extends Component {
                         </div>
                         <div className='part2 col l6 s6 m6'>
                             <img  src={img5} alt='The Sense'/>
-                            <div className="news-bottom">
+                            <div className=" news-bottom">
                                 <h3>un nouvel équipement arrive !</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -233,7 +234,7 @@ class Home extends Component {
                         <h3>qu'est ce qui vous retient ?</h3>
                     </div>
 
-                    <div className='row faq col l6 s12 m12'>
+                    <div className='row faq col l12 s12 m12'>
                         <h3>foire aux questions</h3>
                         <ul class="collapsible">
                             <li>
@@ -245,7 +246,7 @@ class Home extends Component {
 
                             <li>
                                 <div class="collapsible-header">
-                                    Il y a t-il un âge et taille minimum pour participer à une expérience The SENSE 
+                                    Il y a t-il un âge et taille minimum pour participer à une expérience The SENSE ?
                                 </div>
                                 <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
                             </li>
