@@ -51,6 +51,7 @@ class Signup extends Component {
         "password": password
           }
     }
+    
       fetch(`http://localhost:1337/api/user-logins`, {
           method: 'POST',
           headers:{

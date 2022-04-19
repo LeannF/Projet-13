@@ -53,9 +53,11 @@ class Compte extends Component {
 
     changeMdp = (event) => {
         
-        
+        event.preventDefault()
         let newPassword = event.target[0].value
+
         let id = userData.User.id
+        console.log(id);
         userData.User.password = newPassword
         let passsss ={password: newPassword}
         
