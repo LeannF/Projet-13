@@ -12,19 +12,26 @@ class Navbar extends Component {
   }
 
 
-  showPopup(popup){
-    let element = document.getElementById(popup)
+  showPopup(){
+    let element = document.getElementById("popup")
 
     
-    if (element){
+    if (element.style.display === "none"){
+      
       element.style.display = "block";
-      window.onscroll = function (e) {  
-        element.style.display = "block";
-        } 
-    console.log("yo");}
+    }
+    else{
+      element.style.display = "none";
+    }
   }
 
   render() {
+
+    window.onscroll = function (e)
+    {
+      let popup = document.getElementById("popup")
+      popup.style.display = "none";
+    }
     return (
       <>
       <div id="popup">
@@ -38,7 +45,7 @@ class Navbar extends Component {
             <li><a className='black-text' href="nos expériences.js"> nos expériences |</a></li>
             <li><a className='black-text' href="à propos de nous.js"> à propos de nous |</a></li>
             <li><a className='black-text' href="nos équipements.js"> nos équipements |</a></li>
-            <li><a className='black-text ' onClick={this.showPopup("popup")} >connexion</a></li>
+            <li><a className='black-text ' onClick={this.showPopup} >connexion</a></li>
           </ul>
           <div className='row'> 
             <div id='dropdown' className='dropdown-content col l12'>

@@ -1,15 +1,22 @@
+
+
 body{
+    background-image: url("../img/Contact/THESENSE.svg");
     background-repeat: no-repeat;
-    margin: 0;
+    background-size: contain;
+
 }
 
 .row {
-    margin-top: 40%;
+    margin-top: 0%;
 }
 
-.content{
-    padding-left: 10%;
-    padding-right: 5%;
+.discover{
+    padding-top: 75vh!important;
+}
+
+.content{   
+    margin-top: 0!important;
     background-color: #EAFFFB;
 }
 
@@ -19,17 +26,18 @@ body{
 }
 
 
-#sense {
-    background-color: #EAFFFB;
-    
-}
-
 
 #trailer {
     border-radius: 50%;
     border : 20px solid #646363;
     width: fit-content;
 }
+.who{
+
+    padding-top: 100px;
+    margin-left: 10%;
+}
+
 
 #text {
     vertical-align: middle;
