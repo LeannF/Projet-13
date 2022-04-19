@@ -34,12 +34,12 @@ class Home extends Component {
     }
     render() {
         return (
-            <div className='row '>
-                <div className='discover col l12 s12 m12'>
+            <div className='page '>
+                <div className='row discover col l12 s12 m12'>
                     <a href="#sense"><input type="image"  src={discover} alt='The Sense'></input></a>
                 </div> 
                 
-                <div className="sense" id="sense">
+                <div className="row sense" id="sense">
                     <div className="content col l12 s12 m12">
                         <div className="trailer col l6 s12 m12 ">
                             <img src={trailer} alt='The Sense' />
@@ -57,14 +57,14 @@ class Home extends Component {
                     </div>  
                 </div>
 
-                <div className='description2 col l12 s12 m12'>
+                <div className='row description2 col l12 s12 m12'>
                     <h2>la réalité à portée de main</h2>
                     <p>Vous rêvez de voyager, de frissoner ou tout simplement de vivre une expérience unique ? Explorez nos univers entre amis ou en famille et
                         franchissez la frontière de la réalité. Plusieurs dimensions s'offrent à vous, vous donnant accès à  de nombreuses expériences
                     </p>
                 </div>
 
-                <div className="experiences">
+                <div className="row experiences">
                     <h2>nos expériences les plus appréciées</h2>
                     <img  className='col l12 s12 m12' src={shangrila} alt='The Sense'/>
                     <div className='bottom col l12 s12 m12'>
@@ -75,17 +75,17 @@ class Home extends Component {
                         </p>
 
                         <div className="experiences-bottom">
-                            <div className='col l10 s12 m8 '>
+                            <div className='image col l10 s12 m8 '>
                                 <a href=""><input type="image"  src={reserve} alt='The Sense'></input></a>
                             </div>
-                            <div className='text-right col l2 s12 m4'>
+                            <div className='link col l2 s12 m4'>
                                 <a href="" >DÉCOUVREZ LA LIGHT ROOM →</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className='more col l12 s12 m12'>
+                <div className='row more col l12 s12 m12'>
                         <h2>Vous en voulez toujours plus ?</h2>
                         <div> 
                             <img className='col l4 s4 m4' src={img1} alt='The Sense'/>
@@ -100,66 +100,66 @@ class Home extends Component {
                             à la recherce de Percy Fawcett.
                         </p>
                         <div className="more-bottom col l12 s12 m12 ">
-                            <div className='col l9 s12 m8'>
+                            <div className='image col l10 s12 m8'>
                                 <a href=""><input type="image" src={reserve} alt='The Sense'></input></a>
                             </div>
-                            <div className='link col l3 s12 m4'>
+                            <div className='link col l2 s12 m4'>
                                 <a href="">DÉCOUVREZ LA CREATIVE ROOM →</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="col l12 s12 m12">
+                <div className="row col l12 s12 m12">
                     <div className="reservation l12 s12 m12" >
                         <img  className='col l12 s12 m12' src={bg_reservation} alt='The Sense'/>
-                        <div className='title col l12 s12 m12'>
+                        <div className='row title col l12 s12 m12'>
                             <img  src={reservation} alt='The Sense'/>
                         </div>
-                        <div className='info col l12 s12 m12'>
-                            <p className='col l12 s12 m12'>n'attendez plus, réservez</p>
-                            <p className='col l12 s12 m12' id="p2">nos tarifs</p>
-                            <p className='col l12 s12 m12' id="p3">Voir les tarifs pour</p>
-                            <p className='col l12 s12 m12' id="p4">(max 8 joueurs)</p>
-                            <p className='col l12 s12 m12' id="p5">- 4 +</p>
+                        <div className='row info col l12 s12 m12'>
+                            <p className='row col l12 s12 m12'>n'attendez plus, réservez</p>
+                            <p className='row col l12 s12 m12' id="p2">nos tarifs</p>
+                            <p className='row col l12 s12 m12' id="p3">Voir les tarifs pour</p>
+                            <p className='row col l12 s12 m12' id="p4">(max 8 joueurs)</p>
+                            <p className='row col l12 s12 m12' id="p5">- 4 +</p>
                         
-                            <div className='tarifs col l12 s12 m12'>
+                            <div className='row tarifs col l12 s12 m12'>
 
                                 <div className='light col l3 s12 m3' >
                                     <img  src={light} alt='The Sense'/>
                                     <br></br>
-                                    De 10H à 18H: ...€ /personne
+                                    <p>De 10H à 18H: ...€ /personne</p>
                                     <br></br>
-                                    De 18H à 21H: ...€ /personne
+                                    <p>De 18H à 21H: ...€ /personne</p>
                                 </div>
                                 
                                 <div className='dark col l3 s12 m3'>
                                     <img  src={battle} alt='The Sense'/>
                                     <br></br>
-                                    De 10H à 18H: ...€ /personne
+                                    <p>De 10H à 18H: ...€ /personne</p>
                                     <br></br>
-                                    De 18H à 21H: ...€ /personne
+                                    <p>De 18H à 21H: ...€ /personne</p>
                                 </div>
 
                                 <div className='battle col l3 s12 m3'>
                                     <img src={battle} alt='The Sense'/>
                                     <br></br>
-                                    De 10H à 18H: ...€ /personne
+                                    <p>De 10H à 18H: ...€ /personne</p>
                                     <br></br>
-                                    De 18H à 21H: ...€ /personne
+                                    <p>De 18H à 21H: ...€ /personne</p>
                                 </div>
 
                                 <div className='creative col l3 s12 m3'>
                                     <img  src={creative} alt='The Sense'/>
                                     <br></br>
-                                    De 10H à 18H: ...€ /personne
+                                    <p>De 10H à 18H: ...€ /personne</p>
                                     <br></br>
-                                    De 18H à 21H: ...€ /personne
+                                    <p>De 18H à 21H: ...€ /personne</p>
                                 </div>
                             </div> 
                         </div>
 
-                        <div className='horaires col l12 s12 m12'>
+                        <div className='row horaires col l12 s12 m12'>
                             <h3>Du 15 au 20 Décembre</h3>
                             <div className="col l2 s6 m6">
                                 Mardi<br></br>15 Déc.<br></br>
@@ -188,11 +188,22 @@ class Home extends Component {
                                 Dimanche <br></br>20 Déc.
                             </div>
 
-            
+                            <div className='checkbox col s12 m12 l12 '>
+                                <p>
+                                <label>
+                                    <input type="checkbox" disabled="disabled" className="check1 filled-in  s12 m6 l6 red"  />
+                                    <span>non disponible</span>
+                                    <input type="checkbox" disabled="disabled" className="check2 filled-in s12 m6 l6"  />
+                                    <span>réservé</span>
+                                </label>
+                                </p>
+                               
+                            </div>
                         </div>
+                        
                     </div>
 
-                    <div className="news col l12 s12 m12">
+                    <div className="row news col l12 s12 m12">
                         <h3>les news du mois</h3>
                         <div className='part1 col l6 s12 m6'>
                             <img  src={img4} alt='The Sense'/>
@@ -206,7 +217,7 @@ class Home extends Component {
                                 
                             </div>
                         </div>
-                        <div className='part2 col l6 s12 m6'>
+                        <div className='part2 col l6 s6 m6'>
                             <img  src={img5} alt='The Sense'/>
                             <div className="news-bottom">
                                 <h3>un nouvel équipement arrive !</h3>
@@ -218,11 +229,11 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className='carousel col l12 s12 m12'>
+                    <div className='row carousel col l12 s12 m12'>
                         <h3>qu'est ce qui vous retient ?</h3>
                     </div>
 
-                    <div className='faq col l6 s12 m12'>
+                    <div className='row faq col l6 s12 m12'>
                         <h3>foire aux questions</h3>
                         <ul class="collapsible">
                             <li>

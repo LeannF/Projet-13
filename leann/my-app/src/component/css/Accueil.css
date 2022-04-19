@@ -1,79 +1,75 @@
 body {
-    background-image: url("../../img/HomePage/DESIGN DE FOND.svg");
+    background-image: url("../../img/HomePage/bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.row {
+.page {
     margin-top: 40%;
 }
 
-.row .discover {
+.page .discover {
     text-align: center;
     margin-bottom: 10% ;
 }
 
-.row .sense {
+.page .sense {
     background-color: #EAFFFB;
 }
 
-.row .sense .content{
-    padding-left: 10%;
+.page .sense .content{
+    padding-left: 5%;
     padding-right: 5%;
     background-color: #EAFFFB;
 }
 
-
-.row .sense .content .trailer {
+.page .sense .content .trailer {
     border-radius: 50%;
-    border : 20px solid #646363;
-    width: fit-content;
+    border : 22px solid #adadad;
+    width: auto;
 }
 
-.row .sense .content .description {
+.page .sense .content .description {
     padding-left: 9%;
 }
 
-.row .description a{
+.page .description a{
     font-size: 30px;
 }
 
-.row .description2 {
+.page .description2 {
     padding-top: 15%;
     padding-left: 9%;
     padding-right: 5%;
-    margin-bottom: 5% ;
 }
 
-.row .experiences {
+.page .experiences {
     padding-left: 9%;
     padding-right: 5%;
 }
 
-.row .experiences .bottom{
+.page .experiences .bottom{
     padding-left: 5%;
     padding-right: 5%;
     background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.row .experiences .bottom .experiences-bottom{
+.page .experiences .bottom .experiences-bottom{
     text-align: center;
 }
 
-.row .more{
-    padding-top: 5%;
+.page .more{
     padding-left: 9%;
     padding-right: 5%;
-    margin-bottom: 10px;
 }
 
-.row .more img{
+.page .more img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.row .more .bottom{
+.page .more .bottom{
     padding-left: 5%;
     padding-right: 5%;
     background-color: #F2F2F2;
@@ -81,28 +77,32 @@ body {
     border-bottom-right-radius: 20px;
 }
 
-.row .bottom .more-bottom{
-    text-align: center;
+.page .bottom .more-bottom{
     background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 10px;
 }
 
-.row .reservation{
+.page .bottom .more-bottom .image{
+    text-align: center;
+}
+
+
+.page .reservation{
     padding-top: 70px;
 }
 
-.row .reservation img{
+.page .reservation img{
     padding: 0%;
     object-fit: contain;
  }
 
-.row .reservation .title{
+.page .reservation .title{
     position: absolute;
     text-align: center;
     padding-top: 10%;
 }
-.row .reservation .texte{
+.page .reservation .texte{
     text-transform: uppercase;
     position: absolute;
     color: white;
@@ -110,7 +110,7 @@ body {
     font-family: "PoppinsT";
 }
 
-.row .reservation .info{
+.page .reservation .info{
     padding-top: 13%;
     text-transform: uppercase;
     position: absolute;
@@ -119,8 +119,7 @@ body {
     font-family: "PoppinsT";
 }
 
-.row .reservation .info p{
-    padding-top: 10px;
+.page .reservation .info p{
     font-size: 330%;
     text-transform: uppercase;
     position: absolute;
@@ -152,65 +151,75 @@ body {
     font-size: 280%;
 }
 
-.row .reservation .info .tarifs img{
-    filter: brightness(10) opacity(0.9) drop-shadow(0 0 0 white);
-    position: absolute;
-    width: 10%;
-    padding-right: 0%;
-    padding-left: 0%; 
-    margin: 0%;
-}
-.row .reservation .info .tarifs {
-    font-size: medium;
+.page .reservation .info .tarifs {
+
     position: absolute;
     padding-top: 22%;
-    margin: 0%;
-}
-
-.row .reservation .horaires{
-    background-color: black;
-    color: white;
     text-align: center;
-    padding-right: 0%;
-    padding-left: 0%;
+
 }
 
-.row .reservation .horaires .reserved{
+.page .reservation .info .tarifs img{
+    filter: brightness(10) opacity(0.9) drop-shadow(0 0 0 white);
+    width: 50%;
+}
+
+.page .reservation .info .tarifs p{
+    font-size: 90%;
+    padding-left: 7%;
+}
+
+.page .reservation .horaires{
+    background-color: black;
+    color: red;
+    text-align: center;
+
+}
+
+.page .reservation .horaires .reserved{
+    background-color: #00BA8D;
+    width: 100px;
+}
+
+.page .reservation .horaires .indispo{
+    background-color: #9C0000;
+    width: 100px;
+}
+.page .reservation .horaires a h3{
+    color: white;
+}
+
+.page .reservation .horaires .tuto{
+    text-align: center;
+}
+
+.page .reservation .horaires .checkbox span{
+    font-family: "Abel";
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+}
+[type="checkbox"].check1.filled-in:disabled:not(:checked)+span:not(.lever):after {
+    border-color: transparent;
     background-color: #00BA8D;
 }
 
-.row .reservation .horaires .indispo{
+[type="checkbox"].check2.filled-in:disabled:not(:checked)+span:not(.lever):after {
+    border-color: transparent;
     background-color: #9C0000;
 }
-.row .reservation .horaires a{
-    color: white;
-}
 
-.row .reservation .horaires .tuto{
-    text-align: center;
-}
-
-.row .reservation .horaires p{
-    text-align: center;
-    font-size: small;
-}
-
-.row .news {
-    padding-top: 10px;
-}
-
-.row .news p{
+.page .news p{
     font-size: medium;
     color: black;
 }
 
-.row .news .part1 {
+.page .news .part1 {
     text-align: center;
     padding-left: 10%;
 }
 
-.row .news .part1 .news-bottom{
-    
+.page .news .part1 .news-bottom{    
     text-align: center;
     background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
@@ -218,12 +227,12 @@ body {
     width: 80%;
 }
 
-.row .news .part2 {
+.page .news .part2 {
     text-align: center;
     padding-right: 10%;
 }
 
-.row .news .part2 .news-bottom{
+.page .news .part2 .news-bottom{
     text-align: center;
     background-color: #F2F2F2;
     border-bottom-left-radius: 20px;
@@ -247,11 +256,8 @@ a{
     font-family: "PoppinsEL";
 }
 
-h1{
-    padding-top: 10px;
-}
-
 .vl {
     border-left: 2px solid white;
     height: 500px;
 }
+
