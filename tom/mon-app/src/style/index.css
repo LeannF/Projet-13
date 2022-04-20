@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* body {
+  background-image: url("../img/HomePage/DESIGN DE FOND.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+ 
+@font-face {
+  font-family: "AmikoB";
+  src: url("../font/Amiko/Amiko-Bold.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "AmikoR";
+  src: url("../font/Amiko/Amiko-Regular.ttf");
 }
+
+@font-face {
+  font-family: "AmikoSB";
+  src: url("../font/Amiko/Amiko-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Abel";
+  src: url("../font/Abel/Abel-Regular.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsEL";
+  src: url("../font/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsT";
+  src: url("../font/Poppins/Poppins-Thin.ttf");
+}
+
+p{
+  font-family: "Abel";
+  font-size: 30px;
+}
+
+h2{
+  text-transform: uppercase;
+  font-family: "AmikoB";
+}
+
+

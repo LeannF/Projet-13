@@ -1,0 +1,258 @@
+body {
+    background-image: url("../../img/HomePage/DESIGN DE FOND.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    margin-top: 40%;
+}
+
+.row .discover {
+    text-align: center;
+    margin-bottom: 10% ;
+}
+
+.row .sense {
+    background-color: #EAFFFB;
+}
+
+.row .sense .content{
+    padding-left: 10%;
+    padding-right: 5%;
+    background-color: #EAFFFB;
+}
+
+
+.row .sense .content .trailer {
+    border-radius: 50%;
+    border : 20px solid #646363;
+    width: fit-content;
+}
+
+.row .sense .content .description {
+    padding-left: 9%;
+}
+
+.row .description a{
+    font-size: 30px;
+}
+
+.row .description2 {
+    padding-top: 15%;
+    padding-left: 9%;
+    padding-right: 5%;
+    margin-bottom: 5% ;
+}
+
+.row .experiences {
+    padding-left: 9%;
+    padding-right: 5%;
+}
+
+.row .experiences .bottom{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.row .experiences .bottom .experiences-bottom{
+    text-align: center;
+}
+
+.row .more{
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 5%;
+    margin-bottom: 10px;
+}
+
+.row .more img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.row .more .bottom{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.row .bottom .more-bottom{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.row .reservation{
+    padding-top: 70px;
+}
+
+.row .reservation img{
+    padding: 0%;
+    object-fit: contain;
+ }
+
+.row .reservation .title{
+    position: absolute;
+    text-align: center;
+    padding-top: 10%;
+}
+.row .reservation .texte{
+    text-transform: uppercase;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: "PoppinsT";
+}
+
+.row .reservation .info{
+    padding-top: 13%;
+    text-transform: uppercase;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: "PoppinsT";
+}
+
+.row .reservation .info p{
+    padding-top: 10px;
+    font-size: 330%;
+    text-transform: uppercase;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: "PoppinsT";
+}
+
+#p2{
+    padding-top: 5%;
+    font-size: 300%;
+}
+
+#p3{
+    text-transform: none;
+    padding-top: 12%;
+    font-size: 150%;
+}
+
+#p4{
+    text-transform: none;
+    padding-top: 14%;
+    font-size: 90%;
+}
+
+#p5{
+    text-transform: none;
+    padding-top: 14%;
+    font-size: 280%;
+}
+
+.row .reservation .info .tarifs img{
+    filter: brightness(10) opacity(0.9) drop-shadow(0 0 0 white);
+    position: absolute;
+    width: 10%;
+    padding-right: 0%;
+    padding-left: 0%; 
+    margin: 0%;
+}
+.row .reservation .info .tarifs {
+    font-size: medium;
+    position: absolute;
+    padding-top: 22%;
+
+    margin: 0%;
+}
+
+.row .reservation .horaires{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.row .reservation .horaires .reserved{
+    background-color: #00BA8D;
+}
+
+.row .reservation .horaires .indispo{
+    background-color: #9C0000;
+}
+.row .reservation .horaires a{
+    color: white;
+}
+
+.row .reservation .horaires .tuto{
+    text-align: center;
+}
+
+.row .reservation .horaires p{
+    text-align: center;
+    font-size: small;
+}
+
+.row .news {
+    padding-top: 10px;
+}
+
+.row .news p{
+    font-size: medium;
+    color: black;
+}
+
+.row .news .part1 {
+    text-align: center;
+    padding-left: 10%;
+}
+
+.row .news .part1 .news-bottom{
+    
+    text-align: center;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 80%;
+}
+
+.row .news .part2 {
+    text-align: center;
+    padding-right: 10%;
+}
+
+.row .news .part2 .news-bottom{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 80%;
+    margin-right: 10%;
+}
+
+.btn{
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "PoppinsEL";
+}
+
+h1{
+    padding-top: 10px;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 500px;
+}

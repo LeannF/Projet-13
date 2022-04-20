@@ -1,0 +1,49 @@
+
+.row{
+    margin-top: 0%;
+}
+.row .content{
+    margin-top: 40%;
+}
+.row button{
+    background-color: white;
+    color: black;
+    border: #000000;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: #000000;
+}
+.btn, .btn-large, .btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+}
+
+[type="checkbox"]+span:not(.lever) {
+    color: black;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    background-color: #000000;
+    z-index: 0;
+}

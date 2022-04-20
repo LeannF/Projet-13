@@ -1,0 +1,38 @@
+.row{
+    margin-top: 0%;
+}
+.row .content{
+    margin-top: 40%;
+}
+.row .title{
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    position: absolute;
+    text-transform: uppercase;
+    
+}
+
+.row .title p{
+    font-size: 195px;
+    font-family: "AmikoB";
+}
+
+.row .content {
+    position: absolute;
+    color: black;
+}
+
+.row .content form{
+    text-align: center;
+    color: black;
+}
+
+.row .reservations img{
+    border: 2px solid #00BA8D;
+}
+
+.row .reservations2 img{
+    
+    border: 2px solid black;
+}

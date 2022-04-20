@@ -2,7 +2,9 @@ const baseData = {
     User: {
         username: "",
         email: "",
-        password:""
+        password:"",
+        choices:[],
+        id:""
     },
     Status: "disconnected"
 
