@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_logins",
+  "info": {
+    "singularName": "user-login",
+    "pluralName": "user-logins",
+    "displayName": "UserLogin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "admin": {
+      "type": "boolean",
+      "default": false
+    },
+    "password": {
+      "type": "string"
+    },
+    "newsletter": {
+      "type": "boolean"
+    },
+    "nbrBooks": {
+      "type": "integer"
+    },
+    "booking": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::booking.booking",
+      "mappedBy": "user_login"
+    }
+  }
+}

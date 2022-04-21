@@ -1,0 +1,97 @@
+
+#popup  {
+    display:none;
+    border: 2px solid;
+    border-radius: 20px;
+    width:500;
+    height: 500;
+    padding: 5px 20px 20px 10px;
+    position: fixed;
+    top:70px;
+    right: 0%;
+    background: #ffffff;
+    transition-delay: 0s;
+}
+
+.btn, .btn-large, .btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+}
+
+input[type=text]:not(.browser-default){
+    background-color: transparent;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: box-shadow .3s, border .3s;
+    border: 1px solid #1BDCC5;
+    border-radius: 5px;
+}
+input[type=password]:not(.browser-default){
+    background-color: transparent;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: box-shadow .3s, border .3s;
+    border: 1px solid #1BDCC5;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: right;
+    font-family: 'Amiko';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.1em;
+    color: #000000;
+}
+
+.connexion a {
+    text-align: right;
+    color: #3B4040;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+strong{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    color: #3B4040;
+}
+
+.compte a{
+    font-family: 'Amiko';
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -0.135em;
+    color: #3B4040;
+}
+p{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-size: 25px;  
+}
+.compte .bottom{
+    top: 50px;
+}
+
+.compte .bottom p{
+    font-size: 30px;
+    text-align: right;
+    letter-spacing: -0.07em;
+    font-weight: 600;
+    color: #9C0000;
+}

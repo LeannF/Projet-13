@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "Booking",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "day": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "room": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room.room"
+    },
+    "user_login": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::user-login.user-login",
+      "inversedBy": "booking"
+    },
+    "hour": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::hour.hour"
+    }
+  }
+}

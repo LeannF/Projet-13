@@ -236,40 +236,40 @@ class Home extends Component {
 
                     <div className='row faq col l12 s12 m12'>
                         <h3>foire aux questions</h3>
-                        <ul class="collapsible">
+                        <ul className="collapsible">
                             <li>
-                                <div class="collapsible-header">
+                                <div className="collapsible-header">
                                     Qu'est ce que The SENSE ?
                                 </div>
-                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                                <div className="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
                             </li>
 
                             <li>
-                                <div class="collapsible-header">
+                                <div className="collapsible-header">
                                     Il y a t-il un âge et taille minimum pour participer à une expérience The SENSE ?
                                 </div>
-                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                                <div className="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
                             </li>
 
                             <li>
-                                <div class="collapsible-header">
+                                <div className="collapsible-header">
                                     Quel est le nombre maximum de participants pour jouer ?
                                 </div>
-                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                                <div className="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
                             </li>
 
                             <li>
-                                <div class="collapsible-header">
+                                <div className="collapsible-header">
                                     Avez-vous une politique d'annulation et de remboursement ? Si oui, comment se déroule-t-elle ?
                                 </div>
-                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                                <div className="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
                             </li>
 
                             <li>
-                                <div class="collapsible-header">
+                                <div className="collapsible-header">
                                     Est il possible de déposer mes affaires "encombrants" avant de faire une expérience ? Puis-je garder mes lunettes ?
                                 </div>
-                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                                <div className="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
                             </li>
                         </ul>
                     </div>

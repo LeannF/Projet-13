@@ -1,0 +1,63 @@
+body{
+    background-image: url('../../img/Vector 79.svg');
+    background-repeat: no-repeat;
+}
+
+.row .discover {
+    text-align: center;
+    margin-bottom: 10% ;
+}
+
+.row .logo-room{
+    width: 1203px;
+    height: 375.5px;
+    left: 158px;
+    top: 112px;
+}
+
+.row .creative{  
+    width: 1203px;
+    height: 136.5px;
+    top: 351px;
+}
+
+.row .cr .content{
+    background: #F2F2F2;
+}
+.row .cr .content .video .trailer{
+
+    border: 22px solid  #771261 ;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+#play{
+    backdrop-filter: blur(fit-content);
+}
+.row .cr .content .description{
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.row .explication h2{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: -0.03em;
+    color: #3B4040;
+}
+.row .test .dark .collapsible-header{
+    width: 1350px;
+    height: 352px;
+}
+.row .test .dark .collapsible-body{
+
+    background-image: url('../../img/img_dark.svg');
+    background-repeat: no-repeat;
+}

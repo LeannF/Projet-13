@@ -1,19 +1,16 @@
 import './css/Compte1.css';
 import React from 'react';
 import { Component } from "react";
-import banner from '../img/banner_compte.svg';
-import logo from '../img/HomePage/Logo.svg';
-
+//import banner from '../img/banner_compte.svg';
+ import logov from '../img/new/logo_vert.svg';
+ import logon from '../img/new/logo_noir.svg';
 
 class Connexion extends Component {
 
     render() {
       return (
         <div className='row'>
-            <div className='header'>
-                <img src={banner} alt='The Sense' className='col s12 m12 l12'></img>
-                <img src={logo} alt='The Sense' className='col s12 m12 l12'></img>
-            </div>
+        
             <div className='title col s12 m12 l12'>
                 <p>mon compte</p>
             </div>
@@ -58,37 +55,37 @@ class Connexion extends Component {
                         <div className="reservations col s12 m6 l6 offset-l4">
 
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100}></img>
+                                <img src={logov} alt='The Sense' width={100} height={100}></img>
                             </div>
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100}></img>
+                                <img src={logov} alt='The Sense' width={100} height={100}></img>
                             </div>
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100}></img>
+                                <img src={logov} alt='The Sense' width={100} height={100}></img>
                             </div>
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100}></img>
+                                <img src={logov} alt='The Sense' width={100} height={100}></img>
                             </div>
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100} ></img>
+                                <img src={logov} alt='The Sense' width={100} height={100} ></img>
                             </div>
                         </div>
 
                         <div className="reservations2 col s12 m6 l6 offset-l4 ">
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100}></img>
+                                <img src={logon} alt='The Sense' width={100} height={100}></img>
                             </div>
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100}></img>
+                                <img src={logon} alt='The Sense' width={100} height={100}></img>
                             </div>
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100}></img>
+                                <img src={logon} alt='The Sense' width={100} height={100}></img>
                             </div>
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100}></img>
+                                <img src={logon} alt='The Sense' width={100} height={100}></img>
                             </div>
                             <div className='col s2 m2 l2'>
-                                <img src={logo} alt='The Sense' width={100} height={100} ></img>
+                                <img src={logon} alt='The Sense' width={100} height={100} ></img>
                             </div>
                         </div>
                     </div>
@@ -96,19 +93,39 @@ class Connexion extends Component {
                     <div className='check col s12 m12 l12 '>
                         <p>
                         <label className='check1'>
-                            <input type="checkbox" class="filled-in s12 m6 l6"  />
+                            <input type="checkbox" className="filled-in s12 m6 l6"  />
                             <span>Se désabonner de la newsletter</span>
                         </label>
                         </p>
                         <p>
                         <label className='check2'>
-                            <input type="checkbox" class="filled-in s12 m6 l6"  />
+                            <input type="checkbox" className="filled-in s12 m6 l6"  />
                             <span>Supprimer mon compte</span>
                         </label>
                         </p>
                     </div>
                 </form>
-            
+            </div>
+            <div className="form ">
+                <form>
+                    <div className="row center-align">
+                        <div className="name">
+                            <input placeholder="Votre nom" className="nom col offset-l3 l4 m4 s10" type={"text"}></input>
+                            <input placeholder="Votre prénom" className="col l4 m4 s10" type={"text"}></input>
+                        </div>
+                    </div>
+                    <div className="row center-align">
+                        <div className="mail">
+                            <input placeholder="Votre adresse mail" className="col offset-l3 l4 m4 s10" type={"text"}></input>
+                        </div>
+                    </div>
+                    <div className="row ">
+                        <div className="message">
+                            <input placeholder="Votre message/Avis" className="col offset-l3 l5 m4 s10" type={"text"}></input>
+                        </div>
+                    </div>
+                </form>
+
             </div>
             
         </div>

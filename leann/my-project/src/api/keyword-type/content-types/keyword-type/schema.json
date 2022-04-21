@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "keyword_types",
+  "info": {
+    "singularName": "keyword-type",
+    "pluralName": "keyword-types",
+    "displayName": "keywordType",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::keyword.keyword",
+      "mappedBy": "keyword_type"
+    }
+  }
+}

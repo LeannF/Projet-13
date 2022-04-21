@@ -1,22 +1,48 @@
 body{
-    background-image: none;
+    background-image: url('../../img/banner_compte.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .row{
     margin-top: 0%;
 }
+.row .title{
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    position: absolute;
+    text-transform: uppercase;
+}
+.row .title p{
+    font-size: 195px;
+    font-family: "AmikoB";
+}
 .row .content{
-    margin-top: 40%;
+    margin-top: 35%;
+    background-image: url('../../img/HomePage/Logo.svg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
 }
 .row button{
     background-color: white;
     color: black;
-    border: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.row .validate{
+    background-color: #000000;
+    color: #fff;
 }
 .row:after {
     content: "";
     display: table;
     clear: both;
     color: #000000;
+}
+.row p{
+    font-family: "AmikoB";
 }
 .btn, .btn-large, .btn-small {
     text-decoration: none;

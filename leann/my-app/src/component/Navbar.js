@@ -1,5 +1,5 @@
 import './css/navbar.css';
-import logo from '../img/HomePage/Logo.svg';
+import logo from '../img/Logo.svg';
 import React from 'react';
 import { Component } from "react";
 import M from "materialize-css";
@@ -31,7 +31,7 @@ class MyNavbar extends Component {
         
       <nav className="myNavbar">
           <img id='title' src={logo} alt='The Sense' color='black' width={70} height={70}/>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><a className='black-text' href="Compte1.js"> news |</a></li>
             <li><a className='black-text' href="Compte1.js"> nos expériences |</a></li>

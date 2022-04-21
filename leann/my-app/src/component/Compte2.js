@@ -1,8 +1,6 @@
 import './css/Compte2.css';
 import React from 'react';
 import { Component } from "react";
-import banner from '../img/banner_compte.svg';
-import logo from '../img/HomePage/Logo.svg';
 
 
 class Compte extends Component {
@@ -12,37 +10,35 @@ class Compte extends Component {
           
         <div className='row'>
             
-            <div className='header'>
-                <img src={banner} alt='The Sense' className='col s12 m12 l12'></img>
-                <img src={logo} alt='The Sense' className='col s12 m12 l12'></img>
-            </div>            
+          
             <div className='title col s12 m12 l12'>
                 <p>mon compte</p>
             </div>
           
             <div className='content col s12 m12 l12'>
                 
-                <form className="col s12">
+                <form className="col  s12 l12 m12 center-align">
                 
                     <div className="row col  s12 m12 l12 ">
-                        <p>Créer un compte</p>
+                        <p >Créer un compte</p>
                         <div className="input-field col s12 m12 l12">
                             <div>
-                                <p className=" col s12 m4 l4">mon adresse mail</p>
+                                <p className=" col s12 m4 l4">Nom prénom</p>
                             </div>
                             <div className='col s12 m4 l4'>
-                                <input placeholder="Placeholder" id="first_name" type="text" class="validate"/>
+                                <input placeholder="Cordier Colin" id="first_name" type="text" class="validate"/>
                             </div>
                          
                         </div>
 
                         <div className="input-field col s12 m12 l12">
                             <div>
-                                <p className=" col s12 m4 l4">mon mot de passe</p>
+                                <p className=" col s12 m4 l4">Mon adresse mail</p>
                             </div>
                             <div className='col s12 m4 l4'>
-                                <textarea  className="materialize-textarea "></textarea>
+                                <input placeholder="eubrain@gaming.bs" id="mail" type="text" class="validate"/>
                             </div>
+                         
                             <div className='col s12 m4 l4'>
                                 <button  className="materialize-textarea btn ">Modifier</button>
                             </div>
@@ -50,10 +46,10 @@ class Compte extends Component {
 
                         <div className="input-field col s12 m12 l12">
                             <div>
-                                <p className=" col s12 m4 l4">mon mot de passe</p>
+                                <p className=" col s12 m4 l4">Mon mot de passe</p>
                             </div>
                             <div className='col s12 m4 l4'>
-                                <textarea  className="materialize-textarea "></textarea>
+                                <input placeholder="XXXXXXXXXX" id="mdp" type="text" class="validate"/>
                             </div>
                             <div className='col s12 m4 l4'>
                                 <button  className="materialize-textarea btn ">Modifier</button>
@@ -61,14 +57,14 @@ class Compte extends Component {
                         </div>
                         <div className="input-field col s12 m12 l12">
                             <div>
-                                <p className=" col s12 m4 l4">mon mot de passe</p>
+                                <p className=" col s12 m4 l4">Confirmer le mot de passe</p>
                             </div>
                             <div className='col s12 m4 l4'>
-                                <textarea  className="materialize-textarea "></textarea>
+                                <input placeholder="XXXXXXXXXX" id="cmdp" type="text" class="validate"/>
                             </div>
                          
                         </div>
-                        <button  className="materialize-textarea btn ">Valider</button>
+                        <button  className="validate materialize-textarea btn ">Valider</button>
                             
                     </div>
 

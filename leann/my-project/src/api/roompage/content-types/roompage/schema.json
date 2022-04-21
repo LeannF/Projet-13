@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roompages",
+  "info": {
+    "singularName": "roompage",
+    "pluralName": "roompages",
+    "displayName": "Roompage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room.room",
+      "mappedBy": "roompage"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

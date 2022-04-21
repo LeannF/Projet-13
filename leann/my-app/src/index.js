@@ -4,15 +4,17 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'materialize-css/dist/css/materialize.min.css';
 import MyNavbar from './component/Navbar';
-import Home from './component/Accueil';
-
-//import MyModal from './component/Modal';
-
+//import Home from './component/Accueil';
+//import Connexion from './component/Compte1';
+//import Compte from './component/Compte2'
+//import Creative from './component/Creative';
+//import Popup from './component/Popup'
+import Navbar from './component/Navbar2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyNavbar />
-    <Home/>
+    <Navbar />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
